@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*::after, *::before{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-finger{
+    background-image: url('./pngfind.com-open-hand-png-196940.png');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width:600px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    outline:transparent;
+}
+input{
+    width: 300px;
+}
+.container-item{
+    width:600px;
+ 
+}
+.main-first-finger{
+    transform: translateX(-200px) translateY(350px);
+}
+.first-finger{
+    width: 250px;
+    transform: rotate(220deg) translateX(-20px) translateY(40px);
+}
+
+.main-second-finger{
+    transform: translateX(-150px) translateY(350px);
+}
+.second-finger{
+    transform: rotate(-100deg) translateY(100px) translateX(155px);
+
+}
+.main-third-finger{
+    transform: translateX(-100px) translateY(350px);
+}
+.third-finger{
+    transform: rotate(-90deg) translateY(120px) translateX(180px);
+
+}
+.main-fourth-finger{
+    transform: translateX(50px) translateY(350px);
+}
+.fourth-finger{
+    transform: rotate(-70deg) translateX(220px);
+}
+.main-fiveth-finger{
+    transform: translateX(0px) translateY(350px); 
+}
+.fiveth-finger{
+    transform: rotate(-40deg) translateX(220px);
+}
+button{
+    transform:  translateY(320px);
+    background-color: rgba(0, 255, 255, 0.405);
+}
